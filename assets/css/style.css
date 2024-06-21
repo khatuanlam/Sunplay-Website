@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    font-family: var(Muli, Helvetica, Arial, sans-serif);
+    border: 0;
+}
+
+.logo {
+    height: 90px;
+    width: 100px;
+    max-width: 100px;
+}
+
+main {
+    min-height: 860px;
+}
+
+ul {
+    list-style-type: none;
+    li {
+        font-weight: bold;
+    }
+}
+
+header .nav-link {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.carousel-item {
+    height: 900px;
+}
+
+.card-body {
+    background-color: transparent;
+}
+
+.card {
+    background-color: transparent;
+    border: 0;
+}
+
+#section_1 .row>div:hover {
+    background-color: rgb(115, 87, 102);
+}
+
+#section_2 #first_rep {
+    background-image: url('/assets/img/Body Trang chu/S2_Nexta_BG.png');
+    background-position: center;
+    background-size: cover;
+    .nav-item {
+        width: 150px;
+    }
+}
+
+#section_3 {
+    background-image: url('/assets/img/Body Trang chu/S2_Sunplay_BG.png');
+    background-position: center;
+    background-size: cover;
+    padding: 700px 0.5rem 0.5rem 0.5rem;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    position: absolute;
+    opacity: 1;
+}
+
+.dropdown-menu {
+    display: none;
+    opacity: 0;
+    min-width: 800px;
+}
