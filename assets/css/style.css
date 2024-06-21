@@ -44,7 +44,7 @@ header .nav-link {
 }
 
 #section_2 #first_rep {
-    background-image: url('/assets/img/Body Trang chu/S2_Nexta_BG.png');
+    background-image: url('assets/img/Body Trang chu/S2_Nexta_BG.png');
     background-position: center;
     background-size: cover;
     .nav-item {
